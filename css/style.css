@@ -1,17 +1,4 @@
 /*----------------
-    DEBUG
-------------------*/
-.debug .container {
-    border: 2px dashed blueviolet;
-}
-
-.debug .row .col {
-    border: 2px dashed lightcoral;
-    background-color: rgba(240, 128, 128, 0.2);
-    min-height: 200px;
-}
-
-/*----------------
     RESET
 ------------------*/
 * {
@@ -23,10 +10,6 @@
 /*----------------
     COMMONS
 ------------------*/
-.img-fluid {
-    max-width: 100%;
-}
-
 /*----------------
     LAYOUT
 ------------------*/
@@ -80,18 +63,66 @@ body {
 }
 
 .btn-primary {
-    background-color: lightcoral;
+    background-color: lightskyblue;
     color: #fff;
+    font-size: 20px;
 }
 
 /*----------------
     HEADER
 ------------------*/
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 0.8rem 0;
+    color: black;
+    background-color: white;
+  }
+
+  header nav li{
+    margin-right: 20px;
+}
+
+
+header nav{
+    padding: 0.8rem 0;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.flex-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+div.Logo > img{
+    height: 40px;
+}
+
+ul{
+    list-style-type: none;
+}
 
 /*----------------
     MAIN
 ------------------*/
-
+main{
+    height: 1200px;
+    background-color: blue;
+    color: black;
+}
 /*----------------
     FOOTER
 ------------------*/
+footer{
+    height: 300px;
+    background-color: black;
+    color: white;
+}
