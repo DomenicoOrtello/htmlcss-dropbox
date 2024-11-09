@@ -21,16 +21,18 @@
     padding-right: 20px; */
 }
 
+.container-large{
+    max-width: 1200px;
+}
+
+.container-smaller{
+   max-width: 1000px;
+}
+
 .row {
     display: flex;
 }
 
-.gap-10 {
-    gap: 10px;
-}
-.gap-20 {
-    gap: 20px;
-}
 .gap-30 {
     gap: 30px;
 }
@@ -57,21 +59,23 @@ body {
     cursor: pointer;
 }
 
-.btn-large {
-    padding: 10px 20px;
-    font-size: 16px;
-}
-
 .btn-primary {
-    background-color: lightskyblue;
+    background-color: #0161fd;
     color: #fff;
     font-size: 20px;
+}
+
+.btn-secondary{
+    background-color: #0161fd;
+    color: #fff;
+    font-size: 18px;
 }
 
 /*----------------
     HEADER
 ------------------*/
 header {
+    /*width: 1200px;*/
     position: fixed;
     left: 0;
     right: 0;
@@ -84,7 +88,6 @@ header {
   header nav li{
     margin-right: 20px;
 }
-
 
 header nav{
     padding: 0.8rem 0;
@@ -111,13 +114,18 @@ ul{
 }
 
 /*----------------
+      HERO
+------------------*/
+.hero{
+    height: 700px;
+    background-color: #b4d0e6;
+    width: 100%;
+}
+
+/*----------------
     MAIN
 ------------------*/
-main{
-    height: 1200px;
-    background-color: blue;
-    color: black;
-}
+
 /*----------------
     FOOTER
 ------------------*/
