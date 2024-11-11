@@ -128,23 +128,26 @@ ul{
     position: relative;
 }
 
-h1{
-    color: black;
-    font-size: 50px;
-    padding: 10px;
+.container-hero{
     display: flex;
+    padding-top: 50px;
+    font-size:20px;
+    line-height: 22px;
+}
+
+.col-left{
+    width: 30%;
+}
+
+.col-right{
+    width: 70%;
     position: relative;
-    height: 400px;
-    align-items: center;
 }
 
-.text-box{
-   width: 50%;
+.col-right img{
+    width: 100%;
 }
 
-/*p{
-    font-size: 12px;  
-}*/
 
 
 /*----------------
