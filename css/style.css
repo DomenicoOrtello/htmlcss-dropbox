@@ -130,7 +130,7 @@ ul{
 h1{
     color: black;
     font-size: 50px;
-    padding: 30px;
+    padding: 10px;
     display: flex;
     position: relative;
     height: 400px;
@@ -138,14 +138,12 @@ h1{
 }
 
 .text-box{
-   display: flex;
-   align-items: baseline;
+   width: 50%;
 }
 
-p{
-    font-size: 12px;
-    
-}
+/*p{
+    font-size: 12px;  
+}*/
 
 
 /*----------------
