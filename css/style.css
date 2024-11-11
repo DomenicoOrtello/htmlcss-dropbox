@@ -82,10 +82,11 @@ header {
     left: 0;
     right: 0;
     z-index: 1;
-    padding: 0.8rem 0;
+    padding: 10px 0;
     color: black;
     background-color: white;
-  }
+    margin: 10px;
+}
 
   header nav li{
     margin-right: 20px;
@@ -193,12 +194,12 @@ footer{
 }
 
 .strong{
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
 .font-small{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 footer ul li{
@@ -207,4 +208,15 @@ footer ul li{
 
 footer ul{
     margin: 30px;
+}
+.footer-text{
+    display: flex;
+    padding: 50px 0;
+    color: gray;
+    align-items: center;
+    
+}
+
+.footer-hr{
+    width: 90px;
 }
