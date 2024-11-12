@@ -148,13 +148,11 @@ ul{
     width: 100%;
 }
 
-
-
 /*----------------
     MAIN
 ------------------*/
 
-#first-sec{
+/*#first-sec{
     height: 700px;
     background-color: beige;
     color: black;
@@ -176,6 +174,147 @@ ul{
     height: 200px;
     background-color: yellowgreen;
     color: black;
+}*/
+
+section .container h1{
+    padding-top: 100px;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.row img{
+    max-width: 100%;
+}
+
+.row h1{
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.row p{
+    line-height: 20px;
+}
+
+.margin-200 h1{
+    padding-bottom: 70px;
+}
+
+
+#hr{
+    padding-top: 200px;
+}
+
+.flex-check{
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+input[type=radio] {
+    width: 12px;
+    height: 12px;
+}
+
+.container-plans{
+    display: flex;
+    padding-top: 50px;
+    gap: 50px;
+}
+
+.container-plans .header-col{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 12px;
+    border: 1px solid gray;
+    font-size: 16px;
+    gap: 10px;
+}
+
+.plans-detail{
+    width: 100%;
+    padding: 30px 25px;
+    text-align: left;
+}
+
+.border{
+    display: flex;
+    border-bottom: 1px solid gray;  
+    width: 100%;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 5px;
+}
+
+.container-list ul{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 15px;
+}
+
+.short-hr{
+    width: 20%;
+}
+
+.short-hr-footer{
+    width: 10%;
+}
+.bottom-box{
+    margin-top: 50px;
+    border: 0.5px solid gray;
+}
+
+.bottom-box .contentbox{
+    padding: 30px;
+    padding-bottom: 20px;
+}
+
+.contentbox .p-bottom-content{
+    font-size: 14px;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-partner{
+    display: flex;
+    margin: 210px 0;
+}
+
+.partner-left{
+    width: 60%;
+}
+
+.partner-left img{
+    width: 100%;
+}
+
+.partner-right{
+    width: 40%;
+    padding: 60px 50px;
+    line-height: 25px;
+}
+
+.partner-right h2{
+    line-height: 35px;
+}
+
+.partner-right p{
+    line-height: 25px;
+}
+
+.partner-right .btn-large{
+    background-color: white;
+    border: 1px solid ;
 }
 
 /*----------------
